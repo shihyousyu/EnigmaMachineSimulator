@@ -23,7 +23,7 @@ char EnigmaMachine::encryptChar(char c){
     bool rotateNext = w1.state();
     if(rotateNext){
         rotateNext = w2.state();
-        if (rotateNext) w3.state();
+        if(rotateNext) w3.state();
     }
 
     c = p.swap(c);
