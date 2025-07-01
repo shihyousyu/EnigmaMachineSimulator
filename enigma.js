@@ -115,8 +115,8 @@ function createRow(container, letters, isLamp){
     const el = document.createElement(isLamp ? 'div' : 'button');
     el.className = isLamp ? 'lamp' : 'key-btn';
     el.textContent = letter;
-    if (!isLamp) el.dataset.letter = letter;
-    if (isLamp) el.id = 'lamp-' + letter;
+    if(!isLamp) el.dataset.letter = letter;
+    if(isLamp) el.id = 'lamp-' + letter;
     rowDiv.appendChild(el);
   }
 
