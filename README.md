@@ -1,6 +1,7 @@
 # Enigma Machine Simulator
 
-This project is a simulator of the Enigma machine used during World War II. It allows users to configure rotors, initial rotor positions, and plugboard settings to encrypt individual letters, displaying the resulting cipher letter on a lampboard.
+This project is a simulator of the Enigma machine used during World War II. It allows users to configure rotors, initial rotor positions, and plugboard settings to encrypt individual letters, displaying the resulting cipher letter on a lampboard.  
+[here](https://shihyousyu.github.io/EnigmaMachineSimulator/)  
 
 ## Features
 
